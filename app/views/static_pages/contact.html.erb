@@ -1,2 +1,15 @@
-<h1>My Contact Info</h1>
-<p><%= link_to 'Corey@example.com', 'mailto:corey@example.com' %></p>
+<% provide(:title, 'Hire Me') %>
+
+<div id="contact_title">
+  <h2>Hire Me</h2>
+</div>
+<div id="contact_body">
+  <h3>What I can do</h3>
+  <ul>
+    <li>Build custom websites using HTML, CSS, JS</li>
+    <li>Build small web applications using Ruby on Rails</li>
+    <li>Write non technical guest blog or news posts</li>
+  </ul>
+  <h3>Contact Me</h3>
+<p>Email: <%= link_to 'coreyelliotnagel@gmail.com', 'mailto:coreyelliotnagel@gmail.com' %></p>
+</div>
