@@ -42,8 +42,7 @@ div.title{
 
 img#avatar{
   display:inline-block;
-  height: 100px;
-  width: 100px;
+
   float:right;
 }
 
@@ -122,7 +121,7 @@ div#navbar li a:hover{
   background-color: #293354;
 }
 
-.post_title{
+.post_title {
   float:left;
   padding-left:8px;
   background-color:#293354;
@@ -163,11 +162,11 @@ div#navbar li a:hover{
   color: #00AF33;
 }
 
-/* Projects Page */
-
 #projects_title,
 #contact_title,
-#aboutme_title {
+#aboutme_title,
+#user_title,
+#signin_title{
   float:left;
   width: 695px;
   height: 90px;
@@ -178,17 +177,26 @@ div#navbar li a:hover{
   line-height: 50px;
 }
 
+#user_title div {
+  float:left;
+  margin-top:5px;
+  margin-right:8px;
+}
 
 #projects_title h2,
 #contact_title h2,
-#aboutme_title h2 {
+#aboutme_title h2,
+#user_title h2,
+#signin_title h2{
     color: white;
     font-size: 22px;
 }
 
 #projects_body,
 #contact_body,
-#aboutme_body {
+#aboutme_body
+#user_body,
+#signin_body {
   padding-left: 40px;
   padding-top:10px;
   clear:both;
@@ -200,6 +208,8 @@ div#navbar li a:hover{
   margin-left: -30px;
   list-style-type: none; 
 }
+
+
 
 /* Sidebar */
 

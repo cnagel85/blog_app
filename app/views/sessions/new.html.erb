@@ -1,0 +1,23 @@
+<% provide(:title, "Sign in") %>
+
+<div id="signin_title">
+    <h2>Sign in</h2>
+</div>
+<div id="signin_body">
+  <% flash.each do |key, value| %>
+      <div class="alert alert-<%= key %>"><%= value %></div>
+  <% end %>
+  <div >
+    <%= form_for(:session, url: sessions_path) do |f| %>
+
+        <%= f.label :email %>
+        <%= f.text_field :email %>
+
+        <%= f.label :password %>
+        <%= f.password_field :password %>
+
+        <%= f.submit "Sign in" %>
+    <% end %>
+
+  </div>
+</div>
