@@ -126,21 +126,26 @@ div#barnav li a:hover{
   background-color:#293354;
   width: 500px;
   color: white;
+  height:90px;
 }
 
+#title_box {
+  margin:0px;
+  height:30px;
+}
 .post_title div h2{
   font-size: 22px;
-  margin-top:15px;
+
   color: #FFFFFF;
 
 }
 .post_title ul {
-  position: relative;
-  margin: 5px;
+
+
   list-style-type: none;
   white-space:nowrap;
 
-  display:inline-block;
+
   text-align: left;
   color:#00AF33;
   font-size: .75em;

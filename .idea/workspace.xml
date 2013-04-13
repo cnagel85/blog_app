@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17dbdd03-2bd5-452c-a941-659f40cd5d3a" name="Default" comment="added some static pages tests and contact page" />
+    <list default="true" id="17dbdd03-2bd5-452c-a941-659f40cd5d3a" name="Default" comment="added some static pages tests and contact page">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_bloghead.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_bloghead.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
+    </list>
     <ignored path="blog_app.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html" changelist="17dbdd03-2bd5-452c-a941-659f40cd5d3a" time="1363280734743" ignored="false" />
@@ -20,7 +23,7 @@
     <file path="/projects.html.erb" changelist="17dbdd03-2bd5-452c-a941-659f40cd5d3a" time="1365861378723" ignored="false" />
     <file path="/about.erb" changelist="17dbdd03-2bd5-452c-a941-659f40cd5d3a" time="1365529223840" ignored="false" />
     <file path="/_sidebar.html.erb" changelist="17dbdd03-2bd5-452c-a941-659f40cd5d3a" time="1365529149710" ignored="false" />
-    <file path="/_bloghead.html.erb" changelist="17dbdd03-2bd5-452c-a941-659f40cd5d3a" time="1365526722798" ignored="false" />
+    <file path="/_bloghead.html.erb" changelist="17dbdd03-2bd5-452c-a941-659f40cd5d3a" time="1365863454834" ignored="false" />
     <file path="/_projectshead.html.erb" changelist="17dbdd03-2bd5-452c-a941-659f40cd5d3a" time="1365527340407" ignored="false" />
     <file path="/database.yml" changelist="17dbdd03-2bd5-452c-a941-659f40cd5d3a" time="1365540445456" ignored="false" />
     <file path="/index.html.erb" changelist="17dbdd03-2bd5-452c-a941-659f40cd5d3a" time="1365566494745" ignored="false" />
@@ -34,7 +37,7 @@
     <file path="/sessions_controller.rb" changelist="17dbdd03-2bd5-452c-a941-659f40cd5d3a" time="1365859125878" ignored="false" />
     <file path="/application_controller.rb" changelist="17dbdd03-2bd5-452c-a941-659f40cd5d3a" time="1365702147706" ignored="false" />
     <file path="/users_controller.rb" changelist="17dbdd03-2bd5-452c-a941-659f40cd5d3a" time="1365860031496" ignored="false" />
-    <file path="/custom.css.scss" changelist="17dbdd03-2bd5-452c-a941-659f40cd5d3a" time="1365862823001" ignored="false" />
+    <file path="/custom.css.scss" changelist="17dbdd03-2bd5-452c-a941-659f40cd5d3a" time="1365863489976" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +65,10 @@
       <file leaf-file-name="_bloghead.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_bloghead.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="24" selection-start="45" selection-end="95" vertical-scroll-proportion="-0.625">
-              <folding />
+            <state line="4" column="26" selection-start="158" selection-end="158" vertical-scroll-proportion="-2.5">
+              <folding>
+                <element signature="n#style#0;n#li#3;n#ul#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,7 +103,7 @@
       <file leaf-file-name="custom.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="224" column="17" selection-start="3224" selection-end="3224" vertical-scroll-proportion="0.6129808">
+            <state line="132" column="29" selection-start="1929" selection-end="1929" vertical-scroll-proportion="0.6129808">
               <folding />
             </state>
           </provider>
@@ -153,7 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/spec/requests/authentication_pages_spec.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/sessions/new.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
@@ -168,6 +172,7 @@
         <option value="$PROJECT_DIR$/app/views/static_pages/projects.html.erb" />
         <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_bloghead.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
       </list>
     </option>
@@ -1270,13 +1275,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_bloghead.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="24" selection-start="45" selection-end="95" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="13" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
@@ -1305,9 +1303,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_bloghead.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="26" selection-start="158" selection-end="158" vertical-scroll-proportion="-2.5">
+          <folding>
+            <element signature="n#style#0;n#li#3;n#ul#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="224" column="17" selection-start="3224" selection-end="3224" vertical-scroll-proportion="0.6129808">
+        <state line="132" column="29" selection-start="1929" selection-end="1929" vertical-scroll-proportion="0.6129808">
           <folding />
         </state>
       </provider>
