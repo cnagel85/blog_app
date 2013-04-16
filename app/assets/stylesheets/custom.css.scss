@@ -1,321 +1,293 @@
 
-@import "bootstrap";
 
+
+/* Universal */
 body {
-  background-color:#293354;
-  font-family:"Trebuchet MS", Helvetica, sans-serif
+  background-color:#ffffff;
+  margin:0px;
+
 }
 
-/* Header */
+/* Title Bar */
 
-div.header {
-  position:relative;
-  width: 1000px;
-  height: 195px;
-  margin-left:10px;
-  margin-top:10px;
-  color:#FFF;
+#title_bar {
+  width:100%;
+  height:25%;
+  padding-top:2%;
   background-color:#293354;
+  border-bottom: 2px #00AF33 solid;
+}
+
+#title_bar div {
+  margin-left:2%;
+  margin-right:5%;
+}
+
+#title_bar h1 {
+  font-size: 3em;
+  color:#ffffff;
+}
+
+/* Title Link Bar*/
+
+#linkbar {
   display:block;
 }
 
-h1.title {
-  text-align: left;
-  display:inline-block;
-  font-size: 44px;
-  width:900px;
-  line-height: 100px;
-  padding-left:45px;
-}
-div.title{
-
-  height:150px;
-  border-radius:10px;
-  border-right: 2px #00AF33 solid;
-  border-left: 2px #00AF33 solid;
-  border-top: 2px #00AF33 solid;
-
-}
-
-img#avatar{
-  display:inline-block;
-
-  float:right;
-}
-
-div#barnav{
-  margin-top:10px;
-  display: block;
-  width:950px;
-  height:25px;
-}
-div#barnav ul{
-  margin-top:0;
+#linkbar ul {
+  position:relative;
+  margin-left:1%;
+  margin-top:-1%;
   white-space:nowrap;
 }
-div#barnav li{
+
+#linkbar li {
+  padding: 1em 1em 0em 1em;
   list-style-type: none;
   display:inline-block;
-  border-left: 2px #00AF33 solid;
-  border-right: 2px #00AF33 solid;
-  border-radius: 5px;
+}
 
-}
-div#barnav li a{
-  color:#FFFFFF;
-  text-decoration: none;
-  margin: 15px;
-}
-div#barnav li a:link{
-  color:#FFFFFF;
-  text-decoration: none;
-}
-div#barnav li a:hover{
+#linkbar li a,
+#linkbar li a:link {
   color:#00AF33;
   text-decoration: none;
 }
 
-/*  Main Body */
-
-.mainbody{
-
-  position: relative;
+#linkbar li a:hover {
+  color:#ffffff;
+  text-decoration: none;
 }
 
-#main{
+/* Body Main */
+
+#body {
+  position:relative;
+  width:90%;
+  margin-left:10%;
+  margin-top:1%;
+  color:#293354;
+}
+
+#main {
+  min-height:1000px;
   float:left;
-  border-radius:10px;
-  border-left: 2px #00AF33 solid;
-  border-right: 2px #00AF33 solid;
-  display:inline-block;
-  width:745px;
-  margin-left:20px;
-  margin-bottom:10px;
-  min-height:800px;
-  background-color: white;
+  width: 75%;
 }
 
-#blog_head{
-  float:left;
-  width: 745px;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  background-color:#293354;
-  height:90px;
-}
-
-#blog_body{
-  padding: 10px;
-  padding-left:15px;
+#body hr {
+  position:relative;
+  width:90%;
+  height:1px;
+  border:none;
+  background-color:#00AF33;
+  margin-top:0px;
+  margin-left:0;
   clear:both;
-  font-size: 15px;
-
 }
 
-.avatar{
+#blog_head h2 a,
+#blog_head h2 a:link,
+#post_list_title a,
+#post_list_title a:link,
+#recent_posts li a,
+#recent_posts li a:link{
+  color:#293354;
+  text-decoration: none;
+}
+
+#blog_head h2 a:hover,
+#post_list_title a:hover,
+#recent_posts li a:hover{
+  color:#00AF33;
+  text-decoration: none;
+}
+
+#avatar{
+  margin-top:2%;
+  float:left;
+  height:75px;
+  width:11%;
+}
+
+#post_title {
+  position:relative;
   float:left;
 
-  margin-top:20px;
-  margin-left:50px;
-  background-color: #293354;
 }
 
-.post_title {
-  float:left;
-  padding-left:8px;
-  background-color:#293354;
-  width: 500px;
-  color: white;
-  height:90px;
-}
-
-#title_box {
-  margin:0px;
-  height:30px;
-}
-.post_title div h2{
-  font-size: 22px;
-
-  color: #FFFFFF;
-
-}
-.post_title ul {
-
-
+#post_title ul {
   list-style-type: none;
   white-space:nowrap;
-
-
-  text-align: left;
-  color:#00AF33;
+  margin-top:-2.5%;
+  margin-left:-10%;
+  clear:right;
+  color:#293354;
   font-size: .75em;
 }
 
-.post_title li{
+#post_title li{
   display:inline-block;
-  margin:1px;
 }
 
-.post_title a,
-.post_title a:link{
+#post_title a,
+#post_title a:link{
   text-decoration: none;
-  color: #FFFFFF;
-}
-
-.post_title a:hover{
   color: #00AF33;
 }
 
-#projects_title,
-#contact_title,
-#aboutme_title,
-#user_title,
-#signin_title{
+#post_title a:hover{
+  color: #293354;
+}
+
+#user_title h2 {
   float:left;
-  width: 695px;
-  height: 90px;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  background-color:#293354;
-  padding-left: 50px;
 }
 
-#user_title div {
-  float:left;
-  margin-top:5px;
-  margin-right:8px;
+#blog_body {
+  padding:0% 10% 5% 0%;
 }
 
-#projects_title h2,
-#contact_title h2,
-#aboutme_title h2,
-#user_title h2,
-#signin_title h2{
-  color: white;
-  font-size: 22px;
-  padding-top:10px;
-}
-
-#user_title div {
-  margin-top:20px;
-}
-
-#projects_body,
-#contact_body,
-#aboutme_body
-#user_body,
-#signin_body {
-  padding-left: 40px;
-  padding-top:10px;
-  clear:both;
-  font-size: 15px;
-}
-
+#contact_body ul,
 #projects_body ul,
 #projects_body ul ul {
-  poistion:relative;
-  margin-left: 10px;
   list-style-type: none;
 }
 
-
-
-/* Sidebar */
-
-#side{
-  position: absolute;
-  border-radius:10px;
-  text-align: center;
-  margin-top:-10px;
-  margin-left:795px;
-  display:block;
-  overflow: hidden;
-  font-size: .70em;
-
-
-}
-#about{
-  background-color:white;
-  width:200px;
-  padding-bottom:5px;
-  border-left: 2px #00AF33 solid;
-  border-right: 2px #00AF33 solid;
-  border-radius: 10px;
+#contact_body li a,
+#contact_body li a:link{
+  text-decoration: none;
+  color: #00AF33;
 }
 
-#about_body{
-  padding: 2px;
+#contact_body li a:hover{
+  text-decoration: none;
+  color: #293354;
 }
 
-#side_body{
-  background-color:#FFFFFF;
-  width:200px;
-  margin-top:20px;
-  border-left: 2px #00AF33 solid;
-  border-right: 2px #00AF33 solid;
-  border-radius: 10px;
-  min-height:400px;
+#posts {
+  list-style: none;
+  margin: 10px 0 0 0;
 
+  li {
+    width: 80%;
+    height:25px;
+
+  }
 }
 
-#side_title, #about_title {
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  height: 50px;
-  background-color:#293354;
-  color: white;
+#delete_post {
+  clear:both;
+  float:right;
+  a,
+  a:link {
+    text-decoration: none;
+     color:red;
+  }
+  a:hover {
+    text-decoration: none;
+    color:#293354;
+  }
 }
 
-#side_title h4, #about_title h4 {
-  padding-top:15px;
-  font-size: 1.5em;
+#new_post_form {
+  width:90%;
+}
+#new_post_title textarea{
+  height:25px;
+  width:100%;
+  margin-bottom: 5px;
+  margin-top:5px;
+}
+#new_post_content textarea {
+  height:800px;
+  width:100%;
+}
+
+#new_post_content {
+   clear:both;
+}
+
+#post_list_title {
+  width:80%;
+  float:left;
+}
+
+#post_list_timestamp {
+  float:right;
+}
+
+/* Body Side */
+
+#sidebar {
+  width:23%;
+  float:left;
+}
+
+#sidebar h3 {
+  margin-bottom:.5em;
+}
+
+#side_about_body,
+#side_recent_body {
+  font-size:.9em;
+  width:90%;
 }
 
 #recent_posts {
-  background-color:#FFFFFF;
-  padding:2px;
+  list-style-type: none;
+  padding:0px;
+  margin:1em;
+}
+
+#recent_posts li {
+  margin-bottom:.5em;
+  margin-left:-1em;
+  border-bottom: 1px solid #00AF33;
+}
+
+#recent_post_title {
+  h4 {
+    margin:0px;
+  }
+}
+
+#recent_post_timestamp {
+  font-size: .85em;
 }
 
 /* Footer */
-
-div.footer{
-  position:relative;
-  bottom:0;
-  color:white;
-  width:975px;
-  padding:10px;
-  margin:10px;
-  display:block;
-  height:150px;
-  border-left: 2px #00AF33 solid;
-  border-right: 2px #00AF33 solid;
-  border-bottom: 2px #00AF33 solid;
-  border-radius: 10px;
+#footer {
+  width:100%;
+  padding-top:2%;
+  background-color:#293354;
   clear:both;
-  font-size:.75em;
+  border-top: 2px #00AF33 solid;
 }
 
-div.footer a,
-div.footer a:link,
-div.footer a:hover{
-  text-decoration: none;
-  color:#00AF33;
-}
-div.footer a:hover{
-  color: #ffffff;
-}
+#footerlinkbar ul {
+  position:relative;
+  margin-left:1%;
 
-div#lowernavbar{
-  position:relative;
-  margin-top:120px;
-}
-.footer ul{
-  position:relative;
-  left:-30px;
+  margin-bottom:0%;
   white-space:nowrap;
 }
-.footer ul li{
+
+#footerlinkbar li {
+  padding: 1em 1em 1em 1em;
   list-style-type: none;
   display:inline-block;
-  padding:10px;
+  color:#ffffff;
+  font-size:.75em;
+  line-height:20%;
+}
+
+#footerlinkbar li a,
+#footerlinkbar li a:link {
+  color:#00AF33;
+  text-decoration: none;
+}
+
+#footerlinkbar li a:hover {
+  color:#ffffff;
+  text-decoration: none;
 }

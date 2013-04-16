@@ -1,20 +1,27 @@
 
-  <div id="about">
-    <div id="about_title">
-      <h4>Who am I?</h4>
+<div id="side_about">
+  <div>
+    <div id="side_about_title">
+      <h3>Who am I?</h3>
+      <hr>
     </div>
-    <div id="about_body">
-      <p>This is a section with a little info about me in it.</p>
+    <div id="side_about_body">
+      <p>
+        A bit about me yo. Im some dude and this is my blog.
+      </p>
     </div>
   </div>
-
-  <div id="side_body">
-    <div id="side_title">
-        <h4>Recent Posts</h4>
+</div>
+<div id="side_recent_posts">
+  <div>
+    <div id="side_recent_title">
+      <h3>Recent Posts</h3>
+      <hr>
     </div>
-    <div id="recent_posts">
-    <p>
-      This is going to be a latest post side bar
-    </p>
-     </div>
+    <div id="side_recent_body">
+      <p>
+        <%= render 'shared/recent_posts' %>
+      </p>
+    </div>
   </div>
+ </div>

@@ -1,19 +1,21 @@
 <div id="blog_head">
-    <div class="avatar"><%=  image_tag('avatar_icon.gif', alt: 'Corey') %></div>
-
-    <div class="post_title">
-        <div id="title_box">
-            <h2>Lorem Ipsum...</h2>
-        </div
-        <div>
-            <ul>
-                <li>Author:</li>
-                <li></li><%= link_to 'Corey Nagel', 'mailto:coreyelliotnagel@gmail.com' %></li>
-                <li>Post Date: </li>
-                <li style="color:white;">13/13/13</li>
-                <li>Twitter: </li>
-                <li><%= link_to '@Coreynagel85','http://www.twitter.com/coreynagel85' %></li>
-            </ul>
-        </div>
+  <div id="avatar">
+    <%= image_tag 'avatar_icon.gif' %>
+  </div>
+  <div id="post_title">
+    <div id="title_box">
+      <h2><%= link_to object.title, object %></h2>
     </div>
+    <div>
+      <ul>
+        <li>Author:</li>
+        <li><%= link_to object.user.name, "mailto:#{object.user.email}" %></li>
+        <li>Post Date: </li>
+        <li style="color:#00AF33"><%= object.created_at.strftime("%m/%d/%Y") %></li>
+        <li>Twitter: </li>
+        <li><a href='http://www.twitter.com/coreynagel85'>@Coreynagel85</a></li>
+      </ul>
+    </div>
+  </div>
+  <hr>
 </div>

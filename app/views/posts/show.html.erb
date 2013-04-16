@@ -1,0 +1,10 @@
+<% provide( :title, @post.title )%>
+
+<div id="blog_post">
+
+  <%= render 'layouts/bloghead' , object: @post%>
+
+  <div id="blog_body">
+    <%= simple_format @post.content %>
+  </div>
+</div>

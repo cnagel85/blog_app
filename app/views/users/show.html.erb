@@ -1,11 +1,21 @@
 <% provide(:title, @user.name) %>
 
 <div id="user_title">
-  <div><%=  image_tag 'avatar_icon.gif', alt: 'Corey'  %></div>
+  <div id="avatar"><%=  image_tag 'avatar_icon.gif', alt: 'Corey'  %></div>
 <h2>
   <%= @user.name %>
 </h2>
 </div>
+<hr>
 <div id="user_body">
+  <div>
+    <% if @user.posts.any? %>
+        <h3>Posts (<%= @user.posts.count %>)</h3>
+        <ol id="posts">
+          <%= render @posts %>
+        </ol>
+        <%= will_paginate @posts %>
+    <% end %>
+  </div>
 
 </div>

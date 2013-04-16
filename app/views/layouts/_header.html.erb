@@ -1,18 +1,20 @@
-<div class="header">
-  <div class="title">
-  <h1 class="title"> <b id="name">Corey Elliot Nagel</b>
-   </h1>
-</div>
-  <div id= "barnav">
-    <ul>
-      <li class="navbarlink"><%= link_to 'Blog', home_path %></li>
-      <li class="navbarlink"><%= link_to 'Projects', projects_path %></li>
-      <li class="navbarlink"><%= link_to 'About Me', about_path %></li>
-      <li class="navbarlink"><%= link_to 'Hire Me', contact_path %></li>
-      <% if signed_in? %>
-        <li class="navbarlink"><%= link_to 'New Post', '#' %></li>
-        <li class="navbarlink"><%= link_to 'Sign Out', signout_path, method: "delete" %></li>
-      <% end %>
-    </ul>
+<div id="title_bar">
+  <div>
+    <div>
+      <h1>Corey Elliot Nagel</h1>
+    </div>
+    <div id="linkbar">
+        <ul>
+          <li><%= link_to 'Blog', home_path %></li>
+          <li><%= link_to 'Projects', projects_path %></li>
+          <li><%= link_to 'About Me', about_path %></li>
+          <li><%= link_to 'Hire Me', contact_path %></li>
+          <% if signed_in? %>
+            <li><%= link_to 'My Posts', current_user%></li>
+            <li class="navbarlink"><%= link_to 'New Post', newpost_path %></li>
+            <li class="navbarlink"><%= link_to 'Sign Out', signout_path, method: "delete" %></li>
+          <% end %>
+        </ul>
+      </div>
   </div>
 </div>
