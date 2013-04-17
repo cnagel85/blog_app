@@ -14,7 +14,9 @@
         <ol id="posts">
           <%= render @posts %>
         </ol>
+        <div class="digg_pagination">
         <%= will_paginate @posts %>
+        </div>
     <% end %>
   </div>
 

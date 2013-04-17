@@ -8,6 +8,7 @@ gem 'bootstrap-will_paginate', '0.0.6'
 gem 'pg'
 gem 'RedCloth'
 gem 'tinymce-rails'
+gem 'friendly_id', '4.0.9'
 
 group :development, :test do
 

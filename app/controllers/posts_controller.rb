@@ -1,5 +1,6 @@
 class PostsController < ApplicationController
-  before_filter :signed_in_user
+  before_filter :signed_in_user, except: :show
+  before_filter :correct_user,   only: :destroy
 
   def new
     @post = current_user.posts.build if signed_in?
@@ -20,5 +21,15 @@ class PostsController < ApplicationController
   end
 
   def destroy
+    @post.destroy
+    redirect_to current_user
   end
+
+  private
+
+  def correct_user
+    @post = current_user.posts.find_by_id(params[:id])
+    redirect_to current_user if @post.nil?
+  end
+
 end

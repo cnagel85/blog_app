@@ -1,6 +1,6 @@
 <% if Post.any? %>
     <ol id="recent_posts">
-     <% Post.all(:order => 'created_at DESC', :limit => 6).each do |f| %>
+     <% Post.all(:order => 'created_at DESC', :limit => 15).each do |f| %>
         <%= render 'shared/recent_post', object: f %>
      <% end %>
     </ol>

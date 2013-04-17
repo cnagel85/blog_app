@@ -6,11 +6,11 @@
     <div id="linkbar">
         <ul>
           <li><%= link_to 'Blog', home_path %></li>
+          <li><%= link_to 'All Posts', User.first %></li>
           <li><%= link_to 'Projects', projects_path %></li>
           <li><%= link_to 'About Me', about_path %></li>
           <li><%= link_to 'Hire Me', contact_path %></li>
           <% if signed_in? %>
-            <li><%= link_to 'My Posts', current_user%></li>
             <li class="navbarlink"><%= link_to 'New Post', newpost_path %></li>
             <li class="navbarlink"><%= link_to 'Sign Out', signout_path, method: "delete" %></li>
           <% end %>

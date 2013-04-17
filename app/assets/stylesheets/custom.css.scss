@@ -192,8 +192,9 @@ body {
 #new_post_form {
   width:90%;
 }
-#new_post_title textarea{
-  height:25px;
+#new_post_title textarea,
+#new_post_url textarea {
+  height:20px;
   width:100%;
   margin-bottom: 5px;
   margin-top:5px;
@@ -290,4 +291,56 @@ body {
 #footerlinkbar li a:hover {
   color:#ffffff;
   text-decoration: none;
+}
+
+/* Pagination */
+.digg_pagination {
+  margin-left:20%;
+  background: white;
+  cursor: default;
+  /* self-clearing method: */ }
+.digg_pagination a, .digg_pagination span, .digg_pagination em {
+  padding: 0.2em 0.5em;
+  display: block;
+  float: left;
+  margin-right: 1px; }
+.digg_pagination .disabled {
+  color: #999999;
+   }
+.digg_pagination .current {
+  font-style: normal;
+  font-weight: bold;
+  background: #2e6ab1;
+  color: white;
+  border: 1px solid #2e6ab1; }
+.digg_pagination a {
+  text-decoration: none;
+  color: #293354;
+  border: 1px solid #293354; }
+.digg_pagination a:hover, .digg_pagination a:focus {
+  color: #00AF33;
+  border-color: #00AF33; }
+.digg_pagination .page_info {
+  background: #2e6ab1;
+  color: white;
+  padding: 0.4em 0.6em;
+  width: 22em;
+  margin-bottom: 0.3em;
+  text-align: center; }
+.digg_pagination .page_info b {
+  color: #000033;
+  background: #6aa6ed;
+  padding: 0.1em 0.25em; }
+.digg_pagination:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+* html .digg_pagination {
+  height: 1%; }
+*:first-child + html .digg_pagination {
+  overflow: hidden; }
+.digg_pagination ul {
+  list-style-type: none;
 }
