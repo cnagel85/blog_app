@@ -14,6 +14,13 @@
         <li style="color:#00AF33"><%= object.created_at.strftime("%m/%d/%Y") %></li>
         <li>Twitter: </li>
         <li><a href='http://www.twitter.com/coreynagel85'>@Coreynagel85</a></li>
+        <% if signed_in? %>
+            <li>Post Controls:</li>
+            <li><%= link_to 'Edit', edit_post_path(object) %></li>
+            <li><%= link_to "Delete", object, method: :delete,
+                             data: { confirm: "You sure?" },
+                             title: object.title %></li>
+        <% end %>
       </ul>
     </div>
   </div>

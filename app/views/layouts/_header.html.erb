@@ -11,8 +11,8 @@
           <li><%= link_to 'About Me', about_path %></li>
           <li><%= link_to 'Hire Me', contact_path %></li>
           <% if signed_in? %>
-            <li class="navbarlink"><%= link_to 'New Post', newpost_path %></li>
-            <li class="navbarlink"><%= link_to 'Sign Out', signout_path, method: "delete" %></li>
+            <li><%= link_to 'New Post', newpost_path %></li>
+            <li><%= link_to 'Sign Out', signout_path, method: "delete" %></li>
           <% end %>
         </ul>
       </div>

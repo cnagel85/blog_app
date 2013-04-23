@@ -1,1 +1,3 @@
 Personal Website and Blog App for Corey Nagel - coreyelliotnagel@gmail.com
+
+Located at http://www.coreynagel.com
