@@ -154,11 +154,14 @@ body {
   float:left;
 }
 
-#blog_body {
+#blog_body,
+#aboutme_body,
+#contact_body,
+#projects_body {
   padding:0% 10% 5% 0%;
 }
 
-#contact_body ul,
+#contact_body ul,         s
 #projects_body ul,
 #projects_body ul ul {
   list-style-type: none;
@@ -206,6 +209,7 @@ body {
 #edit_post_form {
   width:90%;
 }
+
 #new_post_title textarea,
 #new_post_url textarea {
   height:20px;
@@ -272,6 +276,7 @@ body {
 }
 
 /* Footer */
+
 #footer {
   width:100%;
   padding-top:2%;
