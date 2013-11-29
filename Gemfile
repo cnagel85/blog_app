@@ -5,7 +5,6 @@ gem 'bootstrap-sass', '2.1'
 gem 'bcrypt-ruby', '3.0.1'
 gem 'will_paginate', '3.0.3'
 gem 'bootstrap-will_paginate', '0.0.6'
-gem 'pg'
 gem 'RedCloth'
 gem 'tinymce-rails'
 gem 'friendly_id', '4.0.9'
@@ -14,8 +13,7 @@ group :development, :test do
 
   gem 'rspec-rails', '2.11.0'
   gem 'guard-rspec', '1.2.1'
-  gem 'guard-spork', '1.2.0'
-  gem 'spork', '0.9.2'
+
 end
 
 # Gems used only for assets and not required
@@ -28,6 +26,10 @@ end
 
 gem 'jquery-rails'
 
+group :development, :test do
+  gem 'sqlite3'
+end
+
 group :development do
   gem 'annotate'
 end
@@ -37,5 +39,5 @@ group :test do
 end
 
 group :production do
-
+  gem 'pg'
 end

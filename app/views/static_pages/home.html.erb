@@ -1,10 +1,10 @@
 <% provide(:title, 'Blog') %>
 <div id="blog_post">
     <% if Post.any? %>
-      <% Post.all(:order => 'created_at DESC', :limit => 3).each do |f| %>
-        <%= render 'layouts/bloghead' , object: f%>
+      <% Post.all(:order => 'created_at DESC', :limit => 3).each do |post| %>
+        <%= render 'layouts/bloghead' , object: post%>
         <div id="blog_body">
-            <%= simple_format @latest_post.content %>
+            <%= simple_format post.content %>
         </div>
       <% end %>
     <% else %>
