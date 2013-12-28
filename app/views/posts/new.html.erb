@@ -3,14 +3,14 @@
   <h2>New Post</h2>
   <hr>
 </div>
-<div id="new_post_form">
+<div class="new_post_form">
     <%= form_for(@post) do |f| %>
       <%= render 'shared/error_messages', object: f.object %>
-        <div id="new_post_title">
+        <div class="new_post_title">
           Post Title:
           <%= f.text_area :title, placeholder: "Post title goes here..." %>
         </div>
-        <div id="new_post_content">
+        <div class="new_post_content">
           Post Content:
           <%= f.text_area :content, placeholder: "Compose new post..." %>
         </div>

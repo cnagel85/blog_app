@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" hash="154139121">
-    <data-source source="LOCAL" name="Rails blog_app: test" product="PostgreSQL" version="9.2.4" jdbc-version="3.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.1 JDBC3 (build 901)" uuid="d3c61b8f-4399-46c5-b94b-ded1d6c61491">
-      <identifier-quote-string>&quot;</identifier-quote-string>
+    <data-source source="LOCAL" name="Rails blog_app: test" uuid="d3c61b8f-4399-46c5-b94b-ded1d6c61491">
+      <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:blog_test</jdbc-url>
       <user-name>postgres</user-name>
@@ -15,8 +15,8 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="Rails blog_app: production" product="PostgreSQL" version="9.2.4" jdbc-version="3.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.1 JDBC3 (build 901)" uuid="2d1f6d38-12de-43b2-b9cf-5a4f2805aa69">
-      <identifier-quote-string>&quot;</identifier-quote-string>
+    <data-source source="LOCAL" name="Rails blog_app: production" uuid="2d1f6d38-12de-43b2-b9cf-5a4f2805aa69">
+      <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:blog_production</jdbc-url>
       <user-name>postgres</user-name>
@@ -29,7 +29,8 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="Rails blog_app: production" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="fc9a04ca-78be-4664-977b-ece793bbb695">
+    <data-source source="LOCAL" name="Rails blog_app: production" uuid="fc9a04ca-78be-4664-977b-ece793bbb695">
+      <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:blog_production</jdbc-url>
       <user-name>corey</user-name>
@@ -42,7 +43,8 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="Rails blog_app: test" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="3efc1ba1-975f-44cf-bea9-b27dc70ce007">
+    <data-source source="LOCAL" name="Rails blog_app: test" uuid="3efc1ba1-975f-44cf-bea9-b27dc70ce007">
+      <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:blog_test</jdbc-url>
       <user-name>corey</user-name>
@@ -55,7 +57,8 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="Rails blog_app: development" product="SQLite" version="3.7.2" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" uuid="f6121127-c3b2-4aaf-bf4f-c7862bf72834">
+    <data-source source="LOCAL" name="Rails blog_app: development" uuid="f6121127-c3b2-4aaf-bf4f-c7862bf72834">
+      <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/blog_development</jdbc-url>
       <libraries>
@@ -67,8 +70,8 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="Rails blog_app: development" product="PostgreSQL" version="9.2.4" jdbc-version="3.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.1 JDBC3 (build 901)" uuid="21990e00-0d0d-4776-b09e-bef8de55bf76">
-      <identifier-quote-string>&quot;</identifier-quote-string>
+    <data-source source="LOCAL" name="Rails blog_app: development" uuid="21990e00-0d0d-4776-b09e-bef8de55bf76">
+      <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:blog_development</jdbc-url>
       <user-name>postgres</user-name>
@@ -81,7 +84,8 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="Rails blog_app: development" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="1f2d4603-ca63-4e4d-b6ee-595672493d68">
+    <data-source source="LOCAL" name="Rails blog_app: development" uuid="1f2d4603-ca63-4e4d-b6ee-595672493d68">
+      <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:blog_development</jdbc-url>
       <user-name>corey</user-name>

@@ -1,9 +1,9 @@
-<div id="blog_head">
-  <div id="avatar">
+<div class="blog_head">
+  <div class="avatar">
     <%= image_tag 'avatar_icon.gif' %>
   </div>
-  <div id="post_title">
-    <div id="title_box">
+  <div class="post_title">
+    <div class="title_box">
       <h2><%= link_to object.title, object %></h2>
     </div>
     <div>
@@ -11,9 +11,9 @@
         <li>Author:</li>
         <li><%= link_to object.user.name, "mailto:#{object.user.email}" %></li>
         <li>Post Date: </li>
-        <li style="color:#00AF33"><%= object.created_at.strftime("%m/%d/%Y") %></li>
-        <li>Twitter: </li>
-        <li><a href='http://www.twitter.com/coreynagel85'>@Coreynagel85</a></li>
+        <li class="post_date"><%= object.created_at.strftime("%m/%d/%Y") %></li>
+        <li>Email: </li>
+        <li><%= link_to object.user.email, "mailto:#{object.user.email}" %></li>
         <% if signed_in? %>
             <li>Post Controls:</li>
             <li><%= link_to 'Edit', edit_post_path(object) %></li>

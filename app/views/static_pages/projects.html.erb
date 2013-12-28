@@ -1,27 +1,42 @@
 <% provide(:title, 'Projects') %>
-<div id="projects_title">
+<div class="projects_title">
   <h2>My Projects</h2>
   <hr>
 </div>
-<div id="projects_body">
+<div class="projects_body">
     <ul>
       <li>
-         <h3>Current</h3>
-         <ul>
-            <li>
-              <h4>
-                <%= link_to 'http://www.coreynagel.com', root_path %>
-                - Source on <a href="https://github.com/cnagel85/blog_app.git">Github</a>
-              </h4>
-            </li>
-         </ul>
+        <h4>
+          <%= link_to 'Project: The Facebook', 'http://fast-plateau-9495.herokuapp.com/' %>
+        </h4>
+        <p>
+          A simple social network application with similar features to the 2004 version of the Facebook.
+          The project was for my Software Engineering Methods and Tools class from my last semester at the University of Colorado at Boulder.
+          I had two partners for the Project, Matt Binsfeld and Jordan Tsiao.  The application was developed using Behavior
+          Driven Design with Cucumber, Test Driven Devolopment with RSpec, and was tracked using Pivotal Tracker.
+          Feel free to create a profile and check it out.
+        </p>
+        - Source on <%= link_to 'Github', 'https://github.com/coreynagel/software_methods_project' %>
       </li>
-
       <li>
-        <h3>Past</h3>
-        <ul>
-          <li></li>
-        </ul>
+        <h4>
+          <%= link_to 'My Personal Blog (this site)', 'https://calm-tundra-4612.herokuapp.com/' %>
+        </h4>
+        <p>
+          A simple blog application made in Ruby on Rails, HTML5, and CSS3.
+          This was my frist solo rails application that wasn't part of a tutorial.
+        </p>
+        - Source on <%= link_to 'Github', 'https://github.com/cnagel85/blog_app' %>
+      </li>
+      <li>
+        <h4>
+          <%= link_to 'Ruby on Rails Tutorial Sample Application', 'https://peaceful-spire-1814.herokuapp.com/' %>
+        </h4>
+        <p>
+          A twitter style application made using the Ruby on Rails Tutorial by Michael Hartl. The book teaches Test Driven Development
+          techniques using RSpec and opened my eyes to Ruby on Rails web development.
+        </p>
+        - Source on <%= link_to 'Github', 'https://github.com/cnagel85/sample_app' %>
       </li>
     </ul>
 </div>

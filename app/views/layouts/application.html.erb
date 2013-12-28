@@ -8,16 +8,16 @@
   <%= render 'layouts/shim' %>
 </head>
 <body>
-    <div id="page">
+    <div class="page">
         <%= render 'layouts/header' %>
-        <div id="body">
-            <div id="main">
+        <div class="body">
+            <div class="main">
               <% flash.each do |key, value| %>
                   <div class="alert alert-<%= key %>"><%= value %></div>
               <% end %>
               <%= yield %>
             </div>
-          <div id="sidebar">
+          <div class="sidebar">
             <%= render 'layouts/sidebar' %>
           </div>
         </div>

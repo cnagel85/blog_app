@@ -1,9 +1,9 @@
 <li>
-  <div id="post_list_title"><b style="font-size:1.05em;"><%= link_to post.title, post %></b></div>
-  <div id="post_list_timestamp">
+  <div class="post_list_title"><%= link_to post.title, post %></div>
+  <div class="post_list_timestamp">
     <%= post.created_at.strftime("%m/%d/%Y") %>
   </div>
-  <div id="delete_post">
+  <div class="delete_post">
       <% if current_user?(post.user) %>
           <%= link_to 'Edit', edit_post_path(post) %>
           <%= link_to "delete", post, method: :delete,

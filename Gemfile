@@ -5,7 +5,7 @@ gem 'bootstrap-sass', '2.1'
 gem 'bcrypt-ruby', '3.0.1'
 gem 'will_paginate', '3.0.3'
 gem 'bootstrap-will_paginate', '0.0.6'
-gem 'RedCloth'
+gem 'RedCloth', '4.2.9'
 gem 'tinymce-rails'
 gem 'friendly_id', '4.0.9'
 
