@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="17dbdd03-2bd5-452c-a941-659f40cd5d3a" name="Default" comment="added some static pages tests and contact page">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/projects.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/projects.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="blog_app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,7 +59,7 @@
       <file leaf-file-name="about.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/static_pages/about.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="6" selection-start="442" selection-end="442" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="360">
+            <state line="9" column="6" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="330">
               <folding />
             </state>
           </provider>
@@ -128,7 +129,7 @@
       <file leaf-file-name="projects.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/static_pages/projects.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="78" selection-start="1269" selection-end="1269" vertical-scroll-proportion="0.55686855" vertical-offset="28" max-vertical-offset="705">
+            <state line="15" column="28" selection-start="678" selection-end="678" vertical-scroll-proportion="0.29098967" vertical-offset="28" max-vertical-offset="705">
               <folding />
             </state>
           </provider>
@@ -239,6 +240,7 @@
     </navigator>
     <panes>
       <pane id="RailsProjectView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -713,7 +715,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1119,12 +1120,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32756132" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1468,14 +1469,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/about.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="6" selection-start="442" selection-end="442" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="360">
+        <state line="9" column="6" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="330">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/projects.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="78" selection-start="1269" selection-end="1269" vertical-scroll-proportion="0.55686855" vertical-offset="28" max-vertical-offset="705">
+        <state line="15" column="28" selection-start="678" selection-end="678" vertical-scroll-proportion="0.29098967" vertical-offset="28" max-vertical-offset="705">
           <folding />
         </state>
       </provider>
