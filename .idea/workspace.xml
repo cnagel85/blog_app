@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="17dbdd03-2bd5-452c-a941-659f40cd5d3a" name="Default" comment="added some static pages tests and contact page">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/projects.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/projects.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="blog_app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -129,7 +128,7 @@
       <file leaf-file-name="projects.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/static_pages/projects.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="98" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.46824226" vertical-offset="28" max-vertical-offset="705">
+            <state line="27" column="78" selection-start="1269" selection-end="1269" vertical-scroll-proportion="0.55686855" vertical-offset="28" max-vertical-offset="705">
               <folding />
             </state>
           </provider>
@@ -1476,7 +1475,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static_pages/projects.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="98" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.46824226" vertical-offset="28" max-vertical-offset="705">
+        <state line="27" column="78" selection-start="1269" selection-end="1269" vertical-scroll-proportion="0.55686855" vertical-offset="28" max-vertical-offset="705">
           <folding />
         </state>
       </provider>
