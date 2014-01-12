@@ -2,11 +2,13 @@
 
 <h2>Edit Post</h2>
 <hr>
-
-<h3><%= @post.title %></h3>
 <div class="edit_post_form">
     <%= form_for(@post) do |f| %>
     <%= render 'shared/error_messages', object: f.object %>
+        <div class="edit_post_title">
+             Post Title:
+          <%= f.text_area :title, value: @post.title %>
+        </div>
         <div class="edit_post_content">
             Post Content:
             <%= f.text_area :content, value: @post.content %>
