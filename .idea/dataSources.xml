@@ -4,8 +4,7 @@
     <data-source source="LOCAL" name="Rails blog_app: test" uuid="d3c61b8f-4399-46c5-b94b-ded1d6c61491">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:blog_test</jdbc-url>
-      <user-name>postgres</user-name>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/blog_test</jdbc-url>
       <libraries>
         <library>
           <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-driver-license.txt</url>

@@ -10,7 +10,7 @@ gem 'tinymce-rails'
 gem 'friendly_id', '4.0.9'
 
 group :development, :test do
-
+  gem 'sqlite3'
   gem 'rspec-rails', '2.11.0'
   gem 'guard-rspec', '1.2.1'
 
@@ -25,10 +25,8 @@ group :assets do
 end
 
 gem 'jquery-rails'
-
-group :development, :test do
-  gem 'sqlite3'
-end
+gem 'jquery-ui-rails'
+gem 'barista'
 
 group :development do
   gem 'annotate'
