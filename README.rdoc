@@ -1,3 +1,3 @@
 Personal Website and Blog App for Corey Nagel - coreyelliotnagel@gmail.com
 
-Located at http://www.coreynagel.com
+Located at http://www.coreynagel.com or https://calm-tundra-4612.herokuapp.com/
