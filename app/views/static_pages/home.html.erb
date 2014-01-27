@@ -1,7 +1,7 @@
 <% provide(:title, 'Blog') %>
 <div class="blog_post">
     <% if Post.any? %>
-      <% Post.all(:order => 'created_at DESC', :limit => 3).each do |post| %>
+      <% Post.all(:order => 'created_at DESC', :limit => 10).each do |post| %>
         <%= render 'layouts/bloghead' , object: post%>
         <div class="blog_body">
             <%= simple_format post.content %>
